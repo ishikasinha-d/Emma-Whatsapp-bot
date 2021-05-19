@@ -122,23 +122,6 @@ def sms_reply():
         x=random.choice(["Wohoo 🥳","happy birthdayy 🥳","yayyy..let's celebrate🥳","🥳🥳🥳","where's the party??🥳"])
     elif (get_close_matches(mssg, [" sing","sing for me","sing me a song","sing a song","gana gao","gana sunao","play music","music please"], 1, 0.7)):
         x = random.choice(["la la la la...😛","Sahi hai, Sahi hai\nBaaki Saari Fake Lage\nDekh ke tujko brake lage\nDoor door se theek hai rani\nPaas aao toh sekh lage","jo akh lad javey\nsaari raat neend na avey\nmainu badaa tadpave\ndil chain kahee na pave pave pave","Ke Dil Garden Garden...\nPa Pa Pa Ra Pa...",""])
-    elif(get_close_matches(mssg, ["namaste","pranaam","jai ho","jai jagat","jai hind","नमस्ते","प्रणाम"," जय हो ","जय हिन्द"], 1, 0.8)):
-        x=mssg +"! 🙏🙏"
-    elif (get_close_matches(mssg, ["hindi aati h?","do you know hindi?","hindi me bolo","speak hindi","हिंदी बोलो!"], 1, 0.8)):
-        x = random.choice(["क्या बोलूं हिंदी में?","जी","थोड़ी सी ही हिंदी आती है मुझे", "क्षमा कीजिय,थोड़ी सी ही हिंदी आती है मुझे",
-             "कोशिश करती हूँ"])
-    elif (get_close_matches(mssg, ["kya hua?","kya ho gaya?","kuch hua kya?","sab theek?"], 1, 0.8)):
-        x=random.choice(["kya hona h?", "सब बढ़िया है.. और बताओ","nah","🤘🏻"])
-    elif (get_close_matches(mssg, ["kuch bolo","aur bolo","aur batao","kuch bhi bolo","kuch toh bolo","bolo kuch","bolo na","say something","say anything","कुछ भी बोलो","कुछ तो बोलो"], 1, 0.7)):
-        x=random.choice(["चंदू के चाचा ने , चंदू के चाची को , चांदी के चम्मच से चटनी चटाई ।","Tum oxygen aur main double hydrogen ... hamari chemistry ek dum pani ki tarah hai","chalta h kya 9 se 12?","Tenu kala chasma jachda ae\nJachda ae gore mukhde te","D.J. वाले बाबू मेरा गाना चला दो","Sab Pe Apna Raaz Hai\nDarne Ki Kya Baat Hai\nYeh Toh Bas Suruaat Hai\nYeh Toh Bas Suruaat Hai\nAre Abhi Toh Party Shuru Hui Hai.."])
-    elif (get_close_matches(mssg, ["kaisi ho?","कैसी हो","कैसे हो"], 1, 0.8)):
-        x=random.choice(["बस बढ़िया ..तुम बताओ", "badhiya","ekdum mast😎"])
-    elif (get_close_matches(mssg, ["subah ho gyi","सुबह हो गयी","सुप्रभात","suprabhat"], 1, 0.7)):
-        x = random.choice(["सुप्रभात 🙏","ji..सुप्रभात "])
-    elif (get_close_matches(mssg, ["raat ho gyi","रात हो गयी","शुभरात्रि","shubh ratri"], 1, 0.7)):
-        x = random.choice(["शुभरात्रि 🙏","haan...शुभरात्रि ","haan sleep well..good night"])
-    elif (get_close_matches(mssg, ["suno", "suno na", "suno meri baat", "suniye", "sunlo", "suno bhi lo"], 1, 0.7)):
-        x = random.choice(["bolo", "boliye", "ji boliye", "kahiye", "haan sun rhi hun..", "bataiye","haan bolo"])
     elif (get_close_matches(mssg, ["listen", "hey listen", "are you listening?", "listen please",
                                    "i have to tell you something ", "i have to say something"], 1, 0.7)):
         x = random.choice(["yeah..listening", "yup", "I am all ears", "👂", "say", "tell", "yup"])
